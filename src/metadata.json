@@ -1,0 +1,203 @@
+{
+    "NAME": "Full German Credit Dataset",
+    "LOCATION": "../data/Proj_dataset_2.csv",
+    "IS_INDEXED": false,
+    "IS_LABELED": false,
+    "COLUMNS": [
+        {
+            "attribute": 1,
+            "header": "Checking Account Balance",
+            "type": "CATEGORICAL_ORDERED",
+            "categories": {
+                "A11": 0,
+                "A12": 1,
+                "A13": 2,
+                "A14": 3
+            }
+        },
+        {
+            "attribute": 2,
+            "header": "Duration of Credit",
+            "type": "NUMERICAL",
+            "categories": null
+        },
+        {
+            "attribute": 3,
+            "header": "Credit History",
+            "type": "CATEGORICAL_ORDERED",
+            "categories": {
+                "A30": 2,
+                "A31": 2,
+                "A32": 1,
+                "A33": 0,
+                "A34": 0
+            }
+        },
+        {
+            "attribute": 4,
+            "header": "Purpose",
+            "type": "CATEGORICAL_UNORDERED",
+            "categories": {
+                "A40": 0,
+                "A41": 1,
+                "A42": 2,
+                "A43": 2,
+                "A44": 2,
+                "A45": 3,
+                "A46": 4,
+                "A48": 5,
+                "A49": 6,
+                "A410": 6
+            }
+        },
+        {
+            "attribute": 5,
+            "header": "Credit Amount",
+            "type": "NUMERICAL",
+            "categories": null
+        },
+        {
+            "attribute": 6,
+            "header": "Savings Account Balance",
+            "type": "CATEGORICAL_ORDERED",
+            "categories": {
+                "A61": 1,
+                "A62": 2,
+                "A63": 3,
+                "A64": 4,
+                "A65": 0
+            }
+        },
+        {
+            "attribute": 7,
+            "header": "Length of Current Employment",
+            "type": "CATEGORICAL_ORDERED",
+            "categories": {
+                "A71": 0,
+                "A72": 1,
+                "A73": 2,
+                "A74": 3,
+                "A75": 4
+            }
+        },
+        {
+            "attribute": 8,
+            "header": "Installment Rate",
+            "type": "NUMERICAL",
+            "categories": [
+                ["[1_1]", 0],
+                ["[2_2]", 1],
+                ["[3_3]", 2],
+                ["[4_4]", 3]
+            ]
+        },
+        {
+            "attribute": 9,
+            "header": "Personal Status",
+            "type": "CATEGORICAL_UNORDERED",
+            "categories": {
+                "A91": 0,
+                "A92": 1,
+                "A93": 0,
+                "A94": 0
+            }
+        },
+        {
+            "attribute": 10,
+            "header": "Applicant Type",
+            "type": "CATEGORICAL_BINARY",
+            "categories": {
+                "A101": 0,
+                "A102": 1,
+                "A103": 1
+            }
+        },
+        {
+            "attribute": 11,
+            "header": "Duration in Current Residence",
+            "type": "NUMERICAL",
+            "categories": null
+        },
+        {
+            "attribute": 12,
+            "header": "Property",
+            "type": "CATEGORICAL_UNORDERED",
+            "categories": {
+                "A121": 0,
+                "A122": 1,
+                "A123": 2,
+                "A124": 3
+            }
+        },
+        {
+            "attribute": 13,
+            "header": "Age",
+            "type": "NUMERICAL",
+            "categories": null
+        },
+        {
+            "attribute": 14,
+            "header": "Concurrent Credits",
+            "type": "CATEGORICAL_UNORDERED",
+            "categories": {
+                "A141": 0,
+                "A142": 1,
+                "A143": 2
+            }
+        },
+        {
+            "attribute": 15,
+            "header": "Housing",
+            "type": "CATEGORICAL_UNORDERED",
+            "categories": {
+                "A151": 0,
+                "A152": 1,
+                "A153": 2
+            }
+        },
+        {
+            "attribute": 16,
+            "header": "Number of Bank Credits",
+            "type": "NUMERICAL",
+            "categories": [
+                [":_1]", 0],
+                ["(1_:", 1]
+            ]
+        },
+        {
+            "attribute": 17,
+            "header": "Occupation",
+            "type": "CATEGORICAL_ORDERED",
+            "categories": {
+                "A171": 0,
+                "A172": 1,
+                "A173": 2,
+                "A174": 3
+            }
+        },
+        {
+            "attribute": 18,
+            "header": "Number of Dependents",
+            "type": "NUMERICAL",
+            "categories": null
+        },
+        {
+            "attribute": 19,
+            "header": "Telephone",
+            "type": "CATEGORICAL_BINARY",
+            "categories": {
+                "A191": 0,
+                "A192": 1
+            }
+        },
+        {
+            "attribute": 20,
+            "header": "Foreign Worker",
+            "type": "CATEGORICAL_BINARY",
+            "categories": {
+                "A201": 0,
+                "A202": 1
+            }
+        }
+    ]
+}
