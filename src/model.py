@@ -37,7 +37,7 @@ def knn_classifier(data, labels, columns):
 
     # create model pipeline
     ns = NumericScaler(n_numeric)
-    rf = RandomForestClassifier(random_state=8)
+    rf = RandomForestClassifier() #random_state=8)
     knn = KNeighborsClassifier()
     rfe = feature_selection.RFE(rf)
     pipe = Pipeline(steps=[('ns', ns),
@@ -70,9 +70,9 @@ def svm_classifier(data, labels, columns):
 
     # create model pipeline
     ns = NumericScaler(n_numeric)
-    rf = RandomForestClassifier(random_state=2)
+    rf = RandomForestClassifier() #random_state=2)
     rfe = feature_selection.RFE(rf)
-    svm = SVC(kernel='rbf', random_state=17)
+    svm = SVC(kernel='rbf') #, random_state=17)
     pipe = Pipeline(steps=[('ns', ns),
                            ('rfe', rfe),
                            ('svm', svm)])
@@ -101,7 +101,7 @@ def naive_bayes_classifier(data, labels, columns):
 
     # create model pipeline
     ns = NumericScaler(n_numeric, with_std=False)
-    rf = RandomForestClassifier(random_state=2)
+    rf = RandomForestClassifier() #random_state=2)
     rfe = feature_selection.RFE(rf)
     pca = decomposition.PCA()
     gnb = GaussianNB()
