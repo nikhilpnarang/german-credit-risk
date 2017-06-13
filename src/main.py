@@ -14,7 +14,7 @@ def main():
 
     # divide data into training and test sets
     x_train, x_test, y_train, y_test = train_test_split(
-        data, labels, test_size=0.2, random_state=33)
+        data, labels, test_size=0.2) #, random_state=33)
 
     # run classifiers classifiers
     clf_base = model.baseline_classifier(x_train, y_train)
